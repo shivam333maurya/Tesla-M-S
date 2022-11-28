@@ -1,0 +1,1189 @@
+.container {
+  background-color: black;
+}
+
+.teslaImage {
+  height: 100vh;
+}
+
+.teslaImage img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.videoSection {
+  height: 120vh;
+  width: 100%;
+  background-color: black;
+}
+
+.aboutMe {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modelName {
+  width: 100%;
+  word-spacing: 4px;
+  margin-top: 100px;
+}
+
+.modelName h1 {
+  font-size: 34px;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.exception {
+  height: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.modelName p {
+  margin-top: unset;
+  font-size: 20px;
+  color: #1f2225;
+}
+
+.techSpecs {
+  display: flex;
+  height: 100vh;
+  align-items: end;
+  padding-bottom: 54px;
+  color: white;
+}
+
+.techSpecs .specs {
+  display: flex;
+}
+
+.orderBtn {
+  margin-bottom: 22px;
+  margin-left: 57px;
+  color: white;
+}
+
+.orderBtn button {
+  height: 41px;
+  width: 200px;
+  border: 3px solid white;
+  background-color: transparent;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+.range {
+  margin-right: 65px;
+}
+
+.range h1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.range p {
+  margin-top: unset;
+  font-size: 14px;
+}
+
+.videoSection .videoWrapper {
+  width: 90%;
+  height: 57%;
+  margin: auto;
+  padding-top: 56px;
+  /* padding-inline: 36px; */
+}
+
+.videoSection video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+  transition: background-color 0.6s ease;
+}
+
+.videoSection .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.video {
+  height: 100%;
+}
+
+.overViewWrapper {
+  margin: auto;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+.overViewWrapper button {
+  width: 12px;
+  height: 12px;
+  padding: 4px;
+  border-radius: 50%;
+  box-shadow: none;
+  border: unset;
+  margin-right: 10px;
+  background-color: #5c5e62;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.overViewWrapper .active {
+  background-color: white;
+}
+
+.demoOverview {
+  margin-top: 16px;
+}
+
+.demoOverview section {
+  text-align: initial;
+  color: white;
+  word-spacing: 4px;
+}
+
+.demoOverview section span {
+  font-size: 21px;
+}
+
+.demoOverview section p {
+  font-size: 17px;
+  margin-top: 22px;
+}
+
+.cardsWrapper {
+  width: 100%;
+}
+
+.cardsWrapper .interiorMedia,
+.exteriorMedia {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-inline: auto;
+  width: 85%;
+}
+
+.cardsWrapper .interiorMedia:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.cardsWrapper .interiorMedia:nth-child(odd) .customCard:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.cardsWrapper .interiorMedia:nth-child(even) .customCard:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.cardsWrapper .interiorMedia img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardsWrapper .interiorMedia video {
+  width: 100%;
+  height: 100%;
+}
+
+.cardsWrapper .interiorMedia .customCard {
+  width: 50%;
+}
+.cardsWrapper .interiorMedia .mediaData {
+  text-align: initial;
+  padding-inline: 80px;
+  word-spacing: 4px;
+  line-height: 20px;
+}
+
+/* exteriorMedia style */
+
+.cardsWrapper .exteriorMedia:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.cardsWrapper .exteriorMedia:nth-child(even) .customCard:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.cardsWrapper .exteriorMedia:nth-child(odd) .customCard:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.cardsWrapper .exteriorMedia img {
+  width: 100%;
+  height: 100%;
+}
+
+.cardsWrapper .exteriorMedia video {
+  width: 100%;
+  height: 100%;
+}
+.cardsWrapper .exteriorMedia .mediaData {
+  text-align: initial;
+  padding-inline: 80px;
+  word-spacing: 4px;
+  line-height: 20px;
+}
+
+.cardsWrapper .exteriorMedia .customCard {
+  width: 50%;
+}
+
+.descreat {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.descreat .heightImage {
+  height: 65%;
+  position: relative;
+}
+.heightUtilities {
+  height: 35%;
+  background-color: white;
+  display: flex;
+  width: 95%;
+  margin-inline: auto;
+}
+.descreat .heightImage .imageWrapper {
+  height: 100%;
+}
+.descreat .heightImage .teslaImage {
+  width: 100%;
+  height: 100%;
+}
+
+.heightUtilities .leftBlock {
+  width: 45%;
+  padding-top: 30px;
+}
+
+.heightUtilities .leftBlock .actions,
+.text {
+  padding-inline: 76px;
+}
+
+.heightUtilities .leftBlock .text {
+  text-align: left;
+}
+
+.heightUtilities .leftBlock .text span {
+  font-size: 20px;
+}
+
+.heightUtilities .leftBlock .text h1 {
+  font-size: 27px;
+  margin-top: 10px;
+}
+
+.heightUtilities .leftBlock .actions .actionWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.heightUtilities .leftBlock .actions .actionWrapper .orderBtn {
+  height: 41px;
+  width: 204px;
+  border: 3px solid black;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #000;
+  font-size: 16px;
+  margin: unset;
+  margin-bottom: 15px;
+}
+
+.heightUtilities .leftBlock .actions .actionWrapper a {
+  width: 204px;
+}
+
+.heightUtilities .leftBlock .actions .actionWrapper a button {
+  height: 41px;
+  width: 204px;
+  border: unset;
+  background-color: #f4f4f4;
+  border-radius: 4px;
+  color: #000;
+  font-size: 16px;
+}
+.heightUtilities .leftBlock .actions .actionWrapper .orderBtn:hover {
+  background-color: #000;
+  color: #fff;
+  transition-duration: 0.7s;
+}
+
+.heightUtilities .rightBlock {
+  width: 55%;
+}
+
+.heightUtilities .rightBlock p {
+  padding-top: 14px;
+  word-spacing: 3px;
+  text-align: left;
+  line-height: 20px;
+  color: #565151;
+  padding-inline: 27px;
+}
+
+.heightUtilities .rightBlock p a {
+  text-decoration: underline;
+}
+
+.descreat .heightImage .powerSpecs {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 49px;
+  color: white;
+}
+
+.descreat .heightImage .powerSpecs .specs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.descreat .heightImage .powerSpecs .range {
+  margin-right: unset;
+}
+
+.descreat .heightImage .teslaImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.descreat video {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.modelSAndSPlaid {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.modelSAndSPlaid .electricPowertrain {
+  width: 80%;
+  margin-inline: auto;
+  text-align: left;
+  height: 160px;
+}
+
+.modelSAndSPlaid .electricPowertrain h1 {
+  margin-top: unset;
+  word-spacing: 3px;
+  font-size: 30px;
+}
+
+.modelSAndSPlaid .electricPowertrain p {
+  margin-top: unset;
+  word-spacing: 3px;
+  color: #565151;
+  line-height: 20px;
+}
+
+.modelSAndSPlaid img {
+  width: 90%;
+  min-height: 350px;
+  max-height: 100vh;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.electricPowerPicture .specsTabs {
+  display: flex;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-inline: auto;
+  width: 80%;
+}
+
+.electricPowerPicture .specsTabs .specsTab {
+  width: 50%;
+  padding-inline: 15px;
+}
+
+.electricPowerPicture .specsTabs .specsTab .specs {
+  display: flex;
+  justify-content: center;
+}
+
+.electricPowerPicture .specsTabs .tabBar {
+  border-top: 3px solid black;
+  width: 100%;
+}
+
+.electricPowerPicture .specsTabs p {
+  opacity: 0.8;
+}
+
+.electricPowerPicture .specsTabs h1 {
+  opacity: 0.8;
+}
+
+/* slide show */
+.electricPowerPicture .powerTrainImg {
+  display: none;
+}
+
+.electricPowerPicture .showImage {
+  display: block;
+  margin-inline: auto;
+}
+
+.electricPowerPicture .specsTab {
+  opacity: 0.5;
+}
+.electricPowerPicture .active {
+  opacity: 1;
+}
+
+/*  */
+
+.descreatDark {
+  width: 100%;
+  height: 100vh;
+}
+
+.descreatDark .heightImage {
+  height: 65%;
+  position: relative;
+}
+.descreatDark .heightUtilities {
+  height: 35%;
+  background-color: black;
+  display: flex;
+  width: 95%;
+  margin-inline: auto;
+}
+
+.descreatDark .heightImage .imageWrapper {
+  height: 100%;
+}
+.descreatDark .heightImage .teslaImage {
+  width: 100%;
+  height: 100%;
+}
+
+.descreatDark .heightUtilities .leftBlock {
+  width: 45%;
+  padding-top: 30px;
+}
+
+.descreatDark .heightUtilities .leftBlock .actions,
+.text {
+  padding-inline: 76px;
+}
+
+.descreatDark .heightUtilities .leftBlock .text {
+  color: #fff;
+  text-align: left;
+}
+
+.descreatDark .heightUtilities .leftBlock .text span {
+  font-size: 20px;
+}
+
+.descreatDark .heightUtilities .leftBlock .text h1 {
+  font-size: 27px;
+  margin-top: 10px;
+}
+
+.descreatDark .heightUtilities .leftBlock .actions .actionWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.descreatDark .heightUtilities .leftBlock .actions .actionWrapper .orderBtn {
+  height: 41px;
+  width: 204px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  margin: unset;
+  margin-bottom: 15px;
+}
+
+.descreatDark .heightUtilities .leftBlock .actions .actionWrapper a {
+  width: 204px;
+}
+
+.descreatDark .heightUtilities .leftBlock .actions .actionWrapper a button {
+  height: 41px;
+  width: 204px;
+  border: unset;
+  background-color: #222;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.descreatDark
+  .heightUtilities
+  .leftBlock
+  .actions
+  .actionWrapper
+  a
+  button:hover {
+  background-color: #393c41;
+  color: #fff;
+  transition-duration: 0.7s;
+}
+.descreatDark
+  .heightUtilities
+  .leftBlock
+  .actions
+  .actionWrapper
+  .orderBtn:hover {
+  background-color: #fff;
+  color: #000;
+  transition-duration: 0.7s;
+}
+
+.descreatDark .heightUtilities .rightBlock {
+  width: 55%;
+}
+
+.descreatDark .heightUtilities .rightBlock p {
+  padding-top: 14px;
+  word-spacing: 3px;
+  text-align: left;
+  line-height: 20px;
+  color: #fff;
+  padding-inline: 27px;
+}
+
+.descreatDark .heightUtilities .rightBlock p a {
+  text-decoration: underline;
+}
+
+.descreatDark .heightImage .powerSpecs {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 49px;
+  color: white;
+}
+
+.descreatDark .heightImage .powerSpecs .specs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.descreatDark .heightImage .powerSpecs .range {
+  margin-right: unset;
+}
+
+.descreatDark .heightImage .teslaImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mapSection {
+  height: 140vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.mapSection .text {
+  text-align: left;
+  padding-inline: 104px;
+  padding-bottom: 58px;
+}
+
+.mapSection .text span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.mapSection .text p {
+  padding-top: 14px;
+  word-spacing: 3px;
+  text-align: left;
+  line-height: 20px;
+  color: #565151;
+}
+
+.mapSection .svgMapImageWrapper {
+  height: 74%;
+}
+
+.mapSection img {
+  height: 95%;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  margin: 0 30px;
+  width: calc(100% - 60px);
+  border-radius: 20px;
+}
+
+.mapSection svg {
+  height: 95%;
+  position: absolute;
+  left: 0;
+  margin: 0 30px;
+  width: calc(100% - 60px);
+}
+
+.mapSection .specsTabs {
+  display: flex;
+  padding-top: 30px;
+  /* margin-bottom: 30px; */
+  margin-inline: auto;
+  width: 80%;
+}
+
+.mapSection .specsTab {
+  width: 25%;
+  padding-inline: 15px;
+  text-align: left;
+}
+
+.mapSection .specsTabs .specs {
+  display: flex;
+  justify-content: center;
+}
+
+.mapSection .specsTabs .tabBar {
+  border-top: 3px solid black;
+  width: 100%;
+}
+
+.mapSection .specsTabs p {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.mapSection .specsTabs h1 {
+  font-size: 28px;
+  opacity: 0.8;
+}
+
+/* map slide show */
+.mapSection .mapImage {
+  display: none;
+}
+
+.mapSection .showMapImage {
+  display: block;
+  margin-inline: auto;
+  transition: 1s ease-in;
+}
+
+.mapSection .specsTabs .specsTab {
+  opacity: 0.5;
+}
+
+.mapSection .specsTabs .active {
+  opacity: 1;
+  transition: 1s ease-in;
+}
+
+.chassisModel {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+.chassisModel .chassisImgSection {
+  position: relative;
+  height: 65%;
+  width: 100%;
+}
+.chassisModel .chassisImgSection .chassisImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.chassisModel .chassisImgSection .poitLine {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(1) {
+  position: absolute;
+  /* width: 100%; */
+  left: 28%;
+  height: 53%;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(1)::before {
+  background-color: #000;
+  bottom: 1px;
+  content: "";
+  display: block;
+  inset-inline-start: 3px;
+  position: absolute;
+  top: 0;
+  transform: scaleY(1);
+  transform-origin: 0 100%;
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+  width: 3px;
+  left: -12px;
+  height: 100%;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(1) span::after {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  bottom: -7px;
+  left: -15px;
+  box-sizing: initial;
+  content: "";
+  display: block;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  transform: scale(1);
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(2)::before {
+  background-color: #000;
+  bottom: 1px;
+  content: "";
+  display: block;
+  inset-inline-start: 3px;
+  position: absolute;
+  top: 0;
+  transform: scaleY(1);
+  transform-origin: 0 100%;
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+  width: 3px;
+  left: -12px;
+  height: 100%;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(2) {
+  position: absolute;
+  /* width: 100%; */
+  left: 48%;
+  height: 21%;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(2) span::after {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  bottom: -7px;
+  left: -15px;
+  box-sizing: initial;
+  content: "";
+  display: block;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  transform: scale(1);
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(3) {
+  position: absolute;
+  /* width: 100%; */
+  left: 52%;
+  top: 67%;
+  height: 28%;
+  display: flex;
+  align-items: end;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(3)::before {
+  background-color: #000;
+  bottom: 1px;
+  content: "";
+  display: block;
+  inset-inline-start: 3px;
+  position: absolute;
+  top: 0;
+  transform: scaleY(1);
+  transform-origin: 0 100%;
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+  width: 3px;
+  left: -12px;
+  height: 100%;
+}
+
+.chassisModel .chassisImgSection .poitLine div:nth-child(3) span::after {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+  top: 0;
+  left: -15px;
+  box-sizing: initial;
+  content: "";
+  display: block;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  transform: scale(1);
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1) 0.1s;
+}
+
+.autoPilotSection .heightImage .powerSpecs {
+  height: 100%;
+  width: 30%;
+  top: 0;
+  color: black;
+  padding-bottom: unset;
+}
+
+.autoPilotSection .heightImage .powerSpecs .specs {
+  flex-direction: column;
+  align-items: baseline;
+  padding-left: 45px;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.autoPilotSection .powerSpecs .specs .range {
+  width: 100%;
+  text-align: left;
+  flex: auto;
+}
+.autoPilotSection .powerSpecs .specs .range h1 .svgCircle {
+  width: 42px;
+  height: 42px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.autoPilotSection .powerSpecs .specs .range h1 .svgCircle .solidBlack {
+  height: 34px;
+  width: 34px;
+  background-color: black;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+.autoPilotSection
+  .powerSpecs
+  .specs
+  .range
+  h1
+  .svgCircle
+  .solidBlack
+  .bigWhite {
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 7px;
+  top: 9px;
+}
+.autoPilotSection
+  .powerSpecs
+  .specs
+  .range
+  h1
+  .svgCircle
+  .solidBlack
+  .smallWhite {
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 8px;
+  top: 20px;
+}
+
+.autoPilotFeature {
+  height: 100vh;
+  background-color: #fff;
+}
+.autoPilotFeature .electricPowerPicture {
+  height: 100%;
+}
+
+.autoPilotFeature .electricPowertrain {
+  width: 80%;
+  height: 100%;
+  margin-inline: auto;
+  text-align: left;
+  height: 160px;
+}
+
+.autoPilotFeature .electricPowertrain h1 {
+  margin-top: unset;
+  word-spacing: 3px;
+  font-size: 30px;
+}
+
+.autoPilotFeature .electricPowertrain p {
+  margin-top: unset;
+  word-spacing: 3px;
+  color: #565151;
+  line-height: 20px;
+}
+
+.autoPilotFeature .electricPowerPicture video {
+  width: 90%;
+  height: 100%;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
+.autoPilotFeature .electricPowerPicture .hideVideo {
+  display: none;
+}
+
+.autoPilotFeature .electricPowerPicture .showVideo {
+  display: block;
+  margin-inline: auto;
+  transition: 1s ease-in;
+}
+
+.lastSection {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.lastSection .heightUtilities {
+  height: 45%;
+  margin-inline: unset;
+}
+
+.lastSection img {
+  height: 100%;
+}
+
+.features {
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+}
+
+.features h1 {
+  width: 82%;
+  word-spacing: 3px;
+  text-align: left;
+  font-size: 28px;
+  line-height: 20px;
+  color: #565151;
+  margin-top: unset;
+  margin-inline: auto;
+}
+
+.tabSection {
+  height: 86vh;
+  width: 100%;
+}
+
+.tabSection .blockWrapper {
+  height: 100%;
+  display: flex;
+}
+
+.tabSection .blockWrapper .imageBlock {
+  width: 50%;
+  height: 100%;
+}
+
+.tabBlock {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 60px;
+}
+.tabBlock .heading {
+  text-align: left;
+  font-size: 28px;
+  word-spacing: 3px;
+  margin-top: unset;
+}
+
+.tabSection img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.tabBlock .tabButtonWrapper {
+  text-align: left;
+}
+.tabBlock button {
+  height: 36px;
+  width: 34%;
+  border: 3px solid rgb(138, 131, 131);
+  background-color: transparent;
+  border-radius: 4px;
+  color: rgb(138, 131, 131);
+  font-size: 13px;
+  word-spacing: 3px;
+  margin: unset;
+  margin-right: 3px;
+}
+
+.tabBlock .active {
+  height: 36px;
+  width: 34%;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 13px;
+  word-spacing: 3px;
+  margin: unset;
+  margin-right: 3px;
+  transition: 0.8s;
+}
+.tabBlock .tabData {
+  display: flex;
+  margin-top: 15px;
+}
+
+.tabBlock .tabData hr {
+  width: 40px;
+  border-color: rgb(138, 131, 131);
+  margin-inline: unset;
+}
+
+.tabBlock .tabData .left {
+  width: 34%;
+  text-align: left;
+  margin-right: 3px;
+}
+
+.tabBlock .tabData .right {
+  width: 34%;
+  text-align: left;
+}
+
+.tabBlock .tabData .left div {
+  display: flex;
+  flex-direction: column;
+  margin-block: 10px;
+}
+.tabBlock .tabData .right div {
+  display: flex;
+  flex-direction: column;
+  margin-block: 10px;
+}
+
+.tabBlock .tabData .left div span {
+  margin-bottom: 5px;
+  word-spacing: 3px;
+}
+.tabBlock .tabData .right div span {
+  margin-bottom: 5px;
+  word-spacing: 3px;
+}
+
+.features p {
+  width: 82%;
+  word-spacing: 3px;
+  text-align: left;
+  line-height: 20px;
+  color: #565151;
+  margin-inline: auto;
+}
+
+.void {
+  width: 100%;
+  height: 100px;
+}
+
+.voidLight {
+  width: 100%;
+  height: 68px;
+  background-color: #f4f4f4;
+}
+
+.voidWhite {
+  width: 100%;
+  height: 68px;
+  background-color: #ffffff;
+}
+
+.voidWhite button {
+  height: 41px;
+  width: 204px;
+  border: 3px solid black;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #000;
+  font-size: 16px;
+  margin: unset;
+  margin-bottom: 15px;
+}
+
+.voidWhite button:hover {
+  background-color: black;
+  color: #fff;
+  transition: 1s;
+}
+
+.voidLight div {
+  opacity: 0.8;
+}
+.void .actionWrapper button {
+  height: 41px;
+  width: 204px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  margin: unset;
+}
+
+.void .actionWrapper .orderBtn:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.8s;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+.more p {
+  font-size: 15px;
+  line-height: 20px;
+  word-spacing: 2px;
+}
+footer span {
+  margin-inline: 7px;
+  font-size: 15px;
+}
