@@ -1,8 +1,9 @@
-import React, { useCallback, useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import "./ModelS.css";
 import "../components/Card.css";
 import { PICTURE_SVG, AUTO_DRIVING_DATA } from "../constants/constData";
+import { Link } from "react-router-dom";
 
 const videoContaint = [
   {
@@ -610,9 +611,9 @@ function ModelS() {
               <div className="actions">
                 <div className="actionWrapper">
                   <button className="orderBtn">Order Now</button>
-                  <a>
+                  <Link to="./inventory">
                     <button className="viewBtn">View Inventory</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -648,6 +649,7 @@ function ModelS() {
                   className={`powerTrainImg${
                     index2 === id ? " showImage" : ""
                   }`}
+                  key={"picture" + id}
                   src={pictur.url}
                   srcSet={pictur.url}
                   alt="Model S Dual Motor All-Wheel Drive"
@@ -658,7 +660,7 @@ function ModelS() {
             <div className="specsTabs">
               {picturs.map((item, id) => (
                 <div
-                  key={"item" + id}
+                  key={"items" + id}
                   className={`specsTab${index2 === id ? " active" : ""}`}
                   onClick={() => setIndex2(id)}
                 >
@@ -732,9 +734,9 @@ function ModelS() {
               <div className="actions">
                 <div className="actionWrapper">
                   <button className="orderBtn">Order Now</button>
-                  <a>
+                  <Link to="./inventory">
                     <button className="viewBtn">View Inventory</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -857,9 +859,9 @@ function ModelS() {
               <div className="actions">
                 <div className="actionWrapper">
                   <button className="orderBtn">Order Now</button>
-                  <a>
+                  <Link to="./inventory">
                     <button className="viewBtn">View Inventory</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -896,6 +898,7 @@ function ModelS() {
           <div className="svgMapImageWrapper">
             {PICTURE_SVG.map((item, id) => (
               <div
+                key={"hsjdf" + id}
                 className={`mapImage${index3 === id ? " showMapImage" : ""}`}
               >
                 {item.component}
@@ -906,7 +909,7 @@ function ModelS() {
             <div className="specsTabs">
               {PICTURE_SVG.map((item, id) => (
                 <div
-                  key={"item" + id}
+                  key={"item4" + id}
                   className={`specsTab${index3 === id ? " active" : ""}`}
                   onClick={() => setIndex3(id)}
                 >
@@ -980,9 +983,9 @@ function ModelS() {
               <div className="actions">
                 <div className="actionWrapper">
                   <button className="orderBtn">Order Now</button>
-                  <a>
+                  <Link to="./inventory">
                     <button className="viewBtn">View Inventory</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1070,9 +1073,9 @@ function ModelS() {
               <div className="actions">
                 <div className="actionWrapper">
                   <button className="orderBtn">Order Now</button>
-                  <a>
+                  <Link to="./inventory">
                     <button className="viewBtn">View Inventory</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1124,7 +1127,7 @@ function ModelS() {
               <div className="specsTabs" style={{ textAlign: "left" }}>
                 {AUTO_DRIVING_DATA.map((item, id) => (
                   <div
-                    key={"item" + id}
+                    key={"item2" + id}
                     className={`specsTab${index4 === id ? " active" : ""}`}
                     onClick={() => setIndex4(id)}
                   >
@@ -1226,9 +1229,9 @@ function ModelS() {
               <div className="actions">
                 <div className="actionWrapper">
                   <button className="orderBtn">Order Now</button>
-                  <a>
+                  <Link to="./inventory">
                     <button className="viewBtn">View Inventory</button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

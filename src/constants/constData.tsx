@@ -65,12 +65,8 @@ export const PICTURE_SVG = [
                 ></rect>
               </g>
               <text
-                text-anchor="middle"
                 transform="matrix(1 0 0 1 0 21.2519)"
                 fill="var(--tds-color--white)"
-                font-family="Gotham SSm"
-                font-size="13px"
-                font-weight="700"
               >
                 0 Miles
               </text>
@@ -146,12 +142,8 @@ export const PICTURE_SVG = [
                 ></rect>
               </g>
               <text
-                text-anchor="middle"
                 transform="matrix(1 0 0 1 0 21.2519)"
                 fill="var(--tds-color--white)"
-                font-family="Gotham SSm"
-                font-size="13px"
-                font-weight="700"
               >
                 0 Miles
               </text>
@@ -230,12 +222,8 @@ export const PICTURE_SVG = [
                 ></rect>
               </g>
               <text
-                text-anchor="middle"
                 transform="matrix(1 0 0 1 0 21.2519)"
                 fill="var(--tds-color--white)"
-                font-family="Gotham SSm"
-                font-size="13px"
-                font-weight="700"
               >
                 211 Miles
               </text>
@@ -311,12 +299,8 @@ export const PICTURE_SVG = [
                 ></rect>
               </g>
               <text
-                text-anchor="middle"
                 transform="matrix(1 0 0 1 0 21.2519)"
                 fill="var(--tds-color--white)"
-                font-family="Gotham SSm"
-                font-size="13px"
-                font-weight="700"
               >
                 0 Miles
               </text>

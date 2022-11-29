@@ -1,5 +1,7 @@
 import React from "react";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Inventory from "./pages/Inventory";
 import ModelS from "./pages/ModelS";
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="header">
-          <a href="https://www.tesla.com/" className="Icon" target={"blank"}>
+          <a href="/" className="Icon" target={"blank"}>
             <svg
               className="tds-icon tds-icon-logo-wordmark tds-site-logo-icon"
               viewBox="0 0 342 35"
@@ -21,11 +23,12 @@ function App() {
             </svg>
           </a>
           <nav className="navLinks">
-            <a href="/js/">Model S</a>
-            <a href="/python/">Model 3</a>
-            <a href="/js/">Model X</a> <a href="/python/">Model Y </a>
-            <a href="/js/">Solar Roof </a>
-            <a href="/python/">Solar Panels</a>
+            <a href="/">Model S</a>
+            <a href="/">Model 3</a>
+            <a href="/">Model X</a>
+            <a href="/">Model Y </a>
+            <a href="/">Solar Roof </a>
+            <a href="/">Solar Panels</a>
           </nav>
           <nav className="navLinks">
             <a href="/html/">Shop</a>
@@ -38,7 +41,12 @@ function App() {
       </header>
       <main>
         <section>
-          <ModelS />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<ModelS />} />
+              <Route path="/inventory" element={<Inventory />} />
+            </Routes>
+          </BrowserRouter>
         </section>
       </main>
     </div>
