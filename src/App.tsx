@@ -31,11 +31,11 @@ function App() {
             <a href="/">Solar Panels</a>
           </nav>
           <nav className="navLinks">
-            <a href="/html/">Shop</a>
+            <a href="/">Shop</a>
 
-            <a href="/css/">Account</a>
+            <a href="/">Account</a>
 
-            <a href="/css/">Menu</a>
+            <a href="/">Menu</a>
           </nav>
         </div>
       </header>
